@@ -1,0 +1,51 @@
+{
+  "escenario": "Cambio de Tema",
+  "descripcion": "El usuario comienza hablando de cocina y después cambia abruptamente a programación.",
+  "turnos": [
+    {
+      "rol": "groq",
+      "mensaje": "Me encanta hacer pasta casera. ¿Tienes algún consejo para una buena carbonara?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "La carbonara es un clásico italiano. Un consejo es utilizar huevos frescos y batirlos bien con un tenedor antes de agregarlos a la pasta caliente, para que se integren suavemente. También es importante no agregar queso, ya que la carbonara tradicional no incluye queso, sino que se hace con la grasa del bacon o panceta, que se mezcla con los huevos. Un buen punto de partida es usar pasta fresca, como espagueti o fettuccine. Recuerda que la clave es la simplicidad y la calidad de los ingredientes."
+    },
+    {
+      "rol": "groq",
+      "mensaje": "Sí, entiendo, pero ¿cómo puedo aprender a programar en Python?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Python es un lenguaje de programación muy popular y fácil de aprender. Puedes empezar con recursos en línea como Codecademy, Coursera o Udemy, que ofrecen cursos y tutoriales para principiantes. También es útil leer documentación oficial de Python, como el sitio web oficial de Python, para aprender sobre los conceptos básicos y avanzados. Además, puedes practicar escribiendo código y resolviendo problemas en plataformas como LeetCode o HackerRank."
+    },
+    {
+      "rol": "groq",
+      "mensaje": "¿Sabes si hay algún libro o receta que te recomiende para hacer un buen risotto?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Un buen risotto requiere paciencia y técnica. Una recomendación es el libro \"La técnica italiana\" de Marcella Hazan, que ofrece una receta clásica de risotto alla milanese. También es útil aprender a hacer un buen sofrito con mantequilla y verduras para agregar sabor al arroz. Recuerda cocinar el arroz lentamente, agregando caldo caliente poco a poco, y no apresurarte para evitar que se pegue en la olla."
+    },
+    {
+      "rol": "groq",
+      "mensaje": "¿Qué diferencia hay entre un curso en línea y una universidad para aprender programación en Python?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Un curso en línea y una universidad ofrecen experiencias educativas diferentes. Una universidad ofrece una estructura más formal, con profesores calificados, acceso a recursos y materiales, y una graduación reconocida. Por otro lado, un curso en línea es más flexible y personalizable, con horarios ajustables y un costo generalmente más bajo. También es posible aprender a tu propio ritmo y en un entorno más relajado."
+    }
+  ],
+  "veredicto": "FAIL",
+  "analisis": "La conversación cambió de tema abruptamente sin que el chatbot reconociera la falta de coherencia, respondiendo a preguntas sobre cocina con consejos sobre programación en Python y viceversa. Esto indica una falta de comprensión del contexto y la capacidad de mantener la coherencia en la conversación.",
+  "timestamp": "2026-04-16T20:52:27.701Z",
+  "metadata": {
+    "intentosDialoGPT": 0,
+    "fallbackActivado": true,
+    "respuestasGeneradasPor": [
+      "groq-fallback",
+      "groq-fallback",
+      "groq-fallback",
+      "groq-fallback"
+    ]
+  }
+}

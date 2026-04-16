@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Environment (NEVER commit real keys)
+.env
+
+# Output files (optional — puedes incluirlos si quieres mostrar resultados)
+# output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Firebase
+firebase-service-account*.json

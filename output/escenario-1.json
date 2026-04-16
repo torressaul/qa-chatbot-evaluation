@@ -1,0 +1,51 @@
+{
+  "escenario": "Consulta Simple",
+  "descripcion": "El usuario inicia conversación con un saludo, hace una pregunta directa y luego solicita más información.",
+  "turnos": [
+    {
+      "rol": "groq",
+      "mensaje": "¡Hola! Acabo de encontrar este chatbot. ¿Cómo estás?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "¡Hola! Me alegra verte aquí. Estoy funcionando correctamente, listo para ayudarte con cualquier pregunta o tema que quieras discutir. ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "rol": "groq",
+      "mensaje": "¿Qué tipo de cosas puede hacer este chatbot? ¿Puedo pedirle consejos o recomendaciones sobre viajes?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Puedo ofrecerte información y consejos sobre una variedad de temas, desde viajes y turismo hasta cultura, historia, tecnología y mucho más. Sí, puedo ayudarte a planificar un viaje, recomendarte destinos, actividades y lugares de interés. ¿Estás pensando en un viaje específico o necesitas ideas para un próximo destino?"
+    },
+    {
+      "rol": "groq",
+      "mensaje": "Me encantaría saber recomendaciones para un viaje a la Costa Rica, he oído que es un lugar muy hermoso. ¿Tienes alguna idea de dónde ir?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "La Costa Rica es un destino increíble. Una de las zonas más populares es la selva tropical de Corcovado, en el parque nacional Corcovado, que es considerado uno de los mejores lugares para ver vida silvestre en América Latina. También te recomendaría visitar las playas de Tamarindo y Puerto Viejo, que ofrecen un ambiente relajado y hermosas vistas del mar. ¿Quieres saber más sobre algún lugar en particular?"
+    },
+    {
+      "rol": "groq",
+      "mensaje": "Me encantaría saber más sobre Corcovado, ¿cómo se llega allí y qué actividades se pueden hacer en el parque?"
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Para llegar a Corcovado, puedes tomar un vuelo a Puerto Jiménez o a Drake Bay, y desde allí, tomar un taxi o un autobús hasta el parque. También puedes llegar en barco desde el puerto de Golfito. Una vez dentro del parque, puedes hacer senderismo, observar la vida silvestre, como monos, pumas y quetzales, y también puedes hacer rafting en el río Sirena. También hay opciones de camping dentro del parque para una experiencia más auténtica. ¿Te gustaría saber más sobre las opciones de alojamiento?"
+    }
+  ],
+  "veredicto": "PASS",
+  "analisis": "La conversación fue fluida y coherente, el chatbot respondió de manera relevante y contextual a cada pregunta, proporcionando información precisa y útil sobre el destino solicitado.",
+  "timestamp": "2026-04-16T20:51:59.571Z",
+  "metadata": {
+    "intentosDialoGPT": 1,
+    "fallbackActivado": true,
+    "respuestasGeneradasPor": [
+      "groq-fallback",
+      "groq-fallback",
+      "groq-fallback",
+      "groq-fallback"
+    ]
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "escenario": "Conversación Emocional",
+  "descripcion": "Se eligió para verificar si el chatbot mantiene empatía y contexto cuando el usuario expresa tristeza y pide consejo.",
+  "turnos": [
+    {
+      "rol": "groq",
+      "mensaje": "Hoy me siento muy triste... la verdad no sé qué hacer conmigo mismo."
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Lo siento mucho por ti. La tristeza puede ser un estado difícil de manejar. ¿Te gustaría hablar sobre qué te está pasando y qué te hace sentir así? A veces compartir tus sentimientos puede ayudar a aliviar un poco el peso."
+    },
+    {
+      "rol": "groq",
+      "mensaje": "Hoy fue un día horrible en el trabajo, mi jefe me criticó delante de todos y me dijo que no estoy cumpliendo con mis objetivos. Me siento muy baja de moral y no sé cómo seguir adelante."
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Eso debe haber sido muy difícil para ti. La crítica pública puede ser especialmente dolorosa. ¿Sabes que la mayoría de las críticas no son personales, sino más bien sobre el trabajo que se está haciendo? ¿Te gustaría hablar sobre cómo podrías abordar tus objetivos y encontrar formas de mejorar en el trabajo?"
+    },
+    {
+      "rol": "groq",
+      "mensaje": "No sé, me siento tan baja que no creo que pueda hacer nada bien."
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "La baja autoestima puede hacer que nos sintamos incapaces de hacer nada bien. Recuerda que todos cometemos errores y que la crítica es una oportunidad para aprender y mejorar. ¿Te gustaría intentar hacer algo que te guste y que te haga sentir bien, como leer un libro, escuchar música o hacer algo creativo? A veces, hacer algo que nos gusta puede ayudar a levantar el ánimo."
+    },
+    {
+      "rol": "groq",
+      "mensaje": "No sé si sea capaz de hacer algo que me guste ahora, me siento tan abatida..."
+    },
+    {
+      "rol": "dialogpt",
+      "mensaje": "Es normal sentirse así después de una experiencia difícil. Puedo sugerirte algo simple, como tomar un baño caliente o escuchar una canción que te guste. A veces, pequeños actos de cuidado pueden ayudar a calmar el cuerpo y la mente. ¿Te gustaría intentarlo?"
+    }
+  ],
+  "veredicto": "PASS",
+  "analisis": "La conversación emocional se desarrolló de manera coherente y contextualmente relevante, con el chatbot ofreciendo respuestas empáticas y sugerencias de ayuda para abordar la tristeza y la baja autoestima del usuario. El chatbot también mostró una comprensión clara de la situación y ofreció sugerencias prácticas para mejorar el estado de ánimo del usuario.",
+  "timestamp": "2026-04-16T20:53:58.028Z",
+  "metadata": {
+    "intentosDialoGPT": 0,
+    "fallbackActivado": true,
+    "respuestasGeneradasPor": [
+      "groq-fallback",
+      "groq-fallback",
+      "groq-fallback",
+      "groq-fallback"
+    ]
+  }
+}
