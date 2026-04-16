@@ -8,36 +8,36 @@
     },
     {
       "rol": "dialogpt",
-      "mensaje": "La carbonara es un clásico italiano. Un consejo es utilizar huevos frescos y batirlos bien con un tenedor antes de agregarlos a la pasta caliente, para que se integren suavemente. También es importante no agregar queso, ya que la carbonara tradicional no incluye queso, sino que se hace con la grasa del bacon o panceta, que se mezcla con los huevos. Un buen punto de partida es usar pasta fresca, como espagueti o fettuccine. Recuerda que la clave es la simplicidad y la calidad de los ingredientes."
+      "mensaje": "La carbonara es un clásico italiano. Para una buena carbonara casera, te recomiendo usar huevos frescos, guanciale o panceta ahumada para dar sabor, y mezclar la salsa con la pasta caliente para que los huevos no se cocinen demasiado. También es importante no agregar queso, ya que la carbonara tradicional es sin queso. Finalmente, no te olvides de agregar un poco de sal y pimienta al gusto."
     },
     {
       "rol": "groq",
-      "mensaje": "Sí, entiendo, pero ¿cómo puedo aprender a programar en Python?"
+      "mensaje": "Me encanta la idea de usar guanciale, voy a tener que buscarlo en la tienda. ¿Sabes si hay algún curso en línea donde pueda aprender a programar en Python?"
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Python es un lenguaje de programación muy popular y fácil de aprender. Puedes empezar con recursos en línea como Codecademy, Coursera o Udemy, que ofrecen cursos y tutoriales para principiantes. También es útil leer documentación oficial de Python, como el sitio web oficial de Python, para aprender sobre los conceptos básicos y avanzados. Además, puedes practicar escribiendo código y resolviendo problemas en plataformas como LeetCode o HackerRank."
+      "mensaje": "El guanciale es un ingrediente clave en la carbonara. En cuanto a Python, hay muchos cursos en línea disponibles. Una opción popular es Coursera, que ofrece un curso de introducción a Python de la Universidad de Michigan. También puedes buscar en edX, Udemy o Codecademy, que ofrecen cursos y tutoriales para aprender Python de manera práctica y divertida."
     },
     {
       "rol": "groq",
-      "mensaje": "¿Sabes si hay algún libro o receta que te recomiende para hacer un buen risotto?"
+      "mensaje": "¿Cuál es el nivel de dificultad de ese curso de Coursera y qué tipo de experiencia previa en programación se requiere?"
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Un buen risotto requiere paciencia y técnica. Una recomendación es el libro \"La técnica italiana\" de Marcella Hazan, que ofrece una receta clásica de risotto alla milanese. También es útil aprender a hacer un buen sofrito con mantequilla y verduras para agregar sabor al arroz. Recuerda cocinar el arroz lentamente, agregando caldo caliente poco a poco, y no apresurarte para evitar que se pegue en la olla."
+      "mensaje": "El curso de introducción a Python de Coursera de la Universidad de Michigan es un curso básico, dirigido a principiantes. No requiere experiencia previa en programación, sino más bien una disposición para aprender y un entorno de trabajo con acceso a un ordenador. El nivel de dificultad es moderado, y se enfoca en enseñar los conceptos básicos de Python, como variables, estructuras de control y funciones."
     },
     {
       "rol": "groq",
-      "mensaje": "¿Qué diferencia hay entre un curso en línea y una universidad para aprender programación en Python?"
+      "mensaje": "¿Cuál es el costo de ese curso de Coursera?"
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Un curso en línea y una universidad ofrecen experiencias educativas diferentes. Una universidad ofrece una estructura más formal, con profesores calificados, acceso a recursos y materiales, y una graduación reconocida. Por otro lado, un curso en línea es más flexible y personalizable, con horarios ajustables y un costo generalmente más bajo. También es posible aprender a tu propio ritmo y en un entorno más relajado."
+      "mensaje": "El curso de introducción a Python de Coursera de la Universidad de Michigan es gratuito. Sin embargo, si deseas obtener un certificado al final del curso, debes pagar un cargo de $49."
     }
   ],
   "veredicto": "FAIL",
-  "analisis": "La conversación cambió de tema abruptamente sin que el chatbot reconociera la falta de coherencia, respondiendo a preguntas sobre cocina con consejos sobre programación en Python y viceversa. Esto indica una falta de comprensión del contexto y la capacidad de mantener la coherencia en la conversación.",
-  "timestamp": "2026-04-16T20:52:27.701Z",
+  "analisis": "La conversación cambió abruptamente de tema sin conexión lógica entre la pregunta sobre carbonara y la pregunta sobre cursos de programación en Python. El chatbot respondió de manera relevante a la pregunta sobre carbonara pero no logró mantener el contexto en la segunda parte de la conversación.",
+  "timestamp": "2026-04-16T21:30:32.764Z",
   "metadata": {
     "intentosDialoGPT": 0,
     "fallbackActivado": true,

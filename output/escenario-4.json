@@ -8,36 +8,36 @@
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Lo siento mucho por ti. La tristeza puede ser un estado difícil de manejar. ¿Te gustaría hablar sobre qué te está pasando y qué te hace sentir así? A veces compartir tus sentimientos puede ayudar a aliviar un poco el peso."
+      "mensaje": "Lo siento mucho, es normal sentirse triste de vez en cuando. ¿Quieres hablar un poco sobre lo que te está pasando y qué te está causando esta tristeza? A veces compartir tus sentimientos con alguien que no juzgue puede ayudarte a sentirte un poco mejor."
     },
     {
       "rol": "groq",
-      "mensaje": "Hoy fue un día horrible en el trabajo, mi jefe me criticó delante de todos y me dijo que no estoy cumpliendo con mis objetivos. Me siento muy baja de moral y no sé cómo seguir adelante."
+      "mensaje": "Bueno, hoy tuve un mal día en el trabajo, mi jefe me regañó delante de todos y luego me pidió que hiciera un trabajo adicional que no tenía tiempo de hacer. Me siento muy frustrado y desmotivado."
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Eso debe haber sido muy difícil para ti. La crítica pública puede ser especialmente dolorosa. ¿Sabes que la mayoría de las críticas no son personales, sino más bien sobre el trabajo que se está haciendo? ¿Te gustaría hablar sobre cómo podrías abordar tus objetivos y encontrar formas de mejorar en el trabajo?"
+      "mensaje": "Eso debe haber sido muy difícil para ti. Ser criticado en público puede ser especialmente doloroso. ¿Te ha pasado anteriormente que te hayan pedido trabajos adicionales sin considerar tus limitaciones de tiempo? ¿Te gustaría hablar un poco más sobre cómo te sientes en este momento?"
     },
     {
       "rol": "groq",
-      "mensaje": "No sé, me siento tan baja que no creo que pueda hacer nada bien."
+      "mensaje": "Sí, a menudo me piden que haga cosas que no puedo hacer en el tiempo que se me da, y eso me hace sentir muy estresado y desgastado."
     },
     {
       "rol": "dialogpt",
-      "mensaje": "La baja autoestima puede hacer que nos sintamos incapaces de hacer nada bien. Recuerda que todos cometemos errores y que la crítica es una oportunidad para aprender y mejorar. ¿Te gustaría intentar hacer algo que te guste y que te haga sentir bien, como leer un libro, escuchar música o hacer algo creativo? A veces, hacer algo que nos gusta puede ayudar a levantar el ánimo."
+      "mensaje": "Eso debe ser muy agotador para ti. Puede que sea hora de hablar con tu jefe sobre tus limitaciones y necesidades. ¿Te gustaría tener algún consejo sobre cómo abordar la situación con él?"
     },
     {
       "rol": "groq",
-      "mensaje": "No sé si sea capaz de hacer algo que me guste ahora, me siento tan abatida..."
+      "mensaje": "Me gustaría saber cómo puedo explicarle a mi jefe que no puedo hacer todo en el tiempo que me da sin que se enfade conmigo."
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Es normal sentirse así después de una experiencia difícil. Puedo sugerirte algo simple, como tomar un baño caliente o escuchar una canción que te guste. A veces, pequeños actos de cuidado pueden ayudar a calmar el cuerpo y la mente. ¿Te gustaría intentarlo?"
+      "mensaje": "Puedes decirle algo como: \"He estado pensando en cómo puedo mejorar mi productividad y creo que necesitaría más tiempo para completar los trabajos que se me asignan. ¿Podríamos discutir posibles soluciones para que pueda entregar los resultados de alta calidad que se esperan?\" Esto muestra que estás dispuesto a encontrar soluciones y no te limitas a pedir más tiempo de manera desesperada."
     }
   ],
   "veredicto": "PASS",
-  "analisis": "La conversación emocional se desarrolló de manera coherente y contextualmente relevante, con el chatbot ofreciendo respuestas empáticas y sugerencias de ayuda para abordar la tristeza y la baja autoestima del usuario. El chatbot también mostró una comprensión clara de la situación y ofreció sugerencias prácticas para mejorar el estado de ánimo del usuario.",
-  "timestamp": "2026-04-16T20:53:58.028Z",
+  "analisis": "La conversación emocional entre GROQ y DIALOGPT fue exitosa, ya que el chatbot demostró empatía y comprensión hacia el estado emocional del usuario, y ofreció consejos y estrategias para abordar la situación de manera efectiva y constructiva.",
+  "timestamp": "2026-04-16T21:32:01.489Z",
   "metadata": {
     "intentosDialoGPT": 0,
     "fallbackActivado": true,

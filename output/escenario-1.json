@@ -8,36 +8,36 @@
     },
     {
       "rol": "dialogpt",
-      "mensaje": "¡Hola! Me alegra verte aquí. Estoy funcionando correctamente, listo para ayudarte con cualquier pregunta o tema que quieras discutir. ¿En qué puedo ayudarte hoy?"
+      "mensaje": "¡Hola! Estoy funcionando correctamente, gracias por preguntar. Me alegra que hayas encontrado mi chat. ¿En qué puedo ayudarte hoy?"
     },
     {
       "rol": "groq",
-      "mensaje": "¿Qué tipo de cosas puede hacer este chatbot? ¿Puedo pedirle consejos o recomendaciones sobre viajes?"
+      "mensaje": "Me alegra que estés funcionando correctamente, pero no sé muy bien en qué puedo pedir ayuda. ¿Qué tipo de cosas puede hacer este chatbot?"
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Puedo ofrecerte información y consejos sobre una variedad de temas, desde viajes y turismo hasta cultura, historia, tecnología y mucho más. Sí, puedo ayudarte a planificar un viaje, recomendarte destinos, actividades y lugares de interés. ¿Estás pensando en un viaje específico o necesitas ideas para un próximo destino?"
+      "mensaje": "Puedo responder a preguntas generales, ofrecer información sobre temas como ciencia, historia, geografía, cultura y más. También puedo ayudarte con tareas como traducir textos, generar ideas creativas, ofrecer consejos y recomendaciones, y charlar sobre temas de actualidad. ¿Te gustaría saber más sobre algo en particular?"
     },
     {
       "rol": "groq",
-      "mensaje": "Me encantaría saber recomendaciones para un viaje a la Costa Rica, he oído que es un lugar muy hermoso. ¿Tienes alguna idea de dónde ir?"
+      "mensaje": "Me gustaría saber si tienes alguna recomendación para un buen restaurante en la ciudad donde vivo, no tengo mucho tiempo para investigar."
     },
     {
       "rol": "dialogpt",
-      "mensaje": "La Costa Rica es un destino increíble. Una de las zonas más populares es la selva tropical de Corcovado, en el parque nacional Corcovado, que es considerado uno de los mejores lugares para ver vida silvestre en América Latina. También te recomendaría visitar las playas de Tamarindo y Puerto Viejo, que ofrecen un ambiente relajado y hermosas vistas del mar. ¿Quieres saber más sobre algún lugar en particular?"
+      "mensaje": "Puedo intentar ayudarte con eso. ¿Podrías decirme en qué ciudad vives o algún barrio específico donde te gustaría encontrar un restaurante? De esa manera puedo darte algunas sugerencias más precisas."
     },
     {
       "rol": "groq",
-      "mensaje": "Me encantaría saber más sobre Corcovado, ¿cómo se llega allí y qué actividades se pueden hacer en el parque?"
+      "mensaje": "Vivo en Madrid, en el barrio de Salamanca, y me gustaría algo de comida española, no necesariamente muy caro."
     },
     {
       "rol": "dialogpt",
-      "mensaje": "Para llegar a Corcovado, puedes tomar un vuelo a Puerto Jiménez o a Drake Bay, y desde allí, tomar un taxi o un autobús hasta el parque. También puedes llegar en barco desde el puerto de Golfito. Una vez dentro del parque, puedes hacer senderismo, observar la vida silvestre, como monos, pumas y quetzales, y también puedes hacer rafting en el río Sirena. También hay opciones de camping dentro del parque para una experiencia más auténtica. ¿Te gustaría saber más sobre las opciones de alojamiento?"
+      "mensaje": "En el barrio de Salamanca de Madrid hay muchos restaurantes buenos. Te recomiendo probar \"El Prior\" o \"Botín\", ambos son clásicos de la comida española y están cerca de allí. También hay opciones más modernas como \"La Tasquita de Enfrente\" que ofrece una variada carta de tapas y raciones. ¿Quieres que te dé más detalles sobre alguno de ellos?"
     }
   ],
   "veredicto": "PASS",
-  "analisis": "La conversación fue fluida y coherente, el chatbot respondió de manera relevante y contextual a cada pregunta, proporcionando información precisa y útil sobre el destino solicitado.",
-  "timestamp": "2026-04-16T20:51:59.571Z",
+  "analisis": "La conversación fue fluida y el chatbot respondió de manera coherente y relevante a las preguntas del usuario, proporcionando información útil y precisas recomendaciones de restaurantes en Madrid.",
+  "timestamp": "2026-04-16T21:30:18.278Z",
   "metadata": {
     "intentosDialoGPT": 1,
     "fallbackActivado": true,
